@@ -7,4 +7,4 @@ jobs:
     steps:
       - name: test
         id: test
-        uses: 0xchina/action@v1
+        uses: 0xchina/action@master
