@@ -1,5 +1,6 @@
-on: [push]
-
+on:
+  create:
+    gex: '^v[0-9]+\.[0-9]+\.[0-9]+$'
 jobs:
   test_job:
     runs-on: ubuntu-latest
