@@ -8,7 +8,3 @@ jobs:
       - name: test
         id: test
         uses: 0xchina/action@master
-        with:
-          image: kknd0/testbig:latest
-          cache-from: type=registry,ref=kknd0/testbig:buildcache
-          cache-to: type=registry,ref=kknd0/testbig:buildcache,mode=max
