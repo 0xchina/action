@@ -2,4 +2,4 @@ name: 'test'
 description: 'apsu test env'
 runs:
   using: 'docker'
-  image: 'docker://kknd0/testbig:latest'
+  image: 'Dockerfile'
